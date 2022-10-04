@@ -28,8 +28,19 @@
             text-align: center;
             display: inline-block;
         }
+        div.front{
+            position: relative;
+        }
         img{
             width: 100%;
+        }
+        table{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #8ba1bbC2;
+            color: white;
+            height: 60px;
         }
     </style>
 </head>
@@ -51,7 +62,23 @@
             <div class="description">
                 <p class="description centre">Ce plat de crevettes est une spécialité des peuples de la côte du Cameroun</p>
             </div>
-            <img src="pexels-rajesh-kumar-verma-8332098.jpg" width="600" alt="">
+            <div class="front">
+                <img src="esset/images/pexels-rajesh-kumar-verma-8332098.jpg" width="600" alt="">
+                <table class="centre info">
+                    <tr>
+                        <th>Difficulté</th>
+                        <th>Préparation</th>
+                        <th>Cuisson</th>
+                        <th>Temps total</th>
+                    </tr>
+                    <tr>
+                        <td>facile</td>
+                        <td>10min</td>
+                        <td>25min</td>
+                        <td>35min</td>
+                    </tr>
+                </table>
+            </div>
     
         </section> 
         <section>
